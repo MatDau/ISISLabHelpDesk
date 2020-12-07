@@ -1,0 +1,1655 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "Calendario",
+      "features": []
+    },
+    {
+      "name": "Informazioni",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "Prenotazione",
+      "features": []
+    },
+    {
+      "name": "Seminari",
+      "features": []
+    },
+    {
+      "name": "Social",
+      "features": []
+    },
+    {
+      "name": "Utilities.Cancel",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Cancel"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Confirm",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Confirm"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Escalate",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Escalate"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.FinishTask",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "FinishTask"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.GoBack",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "GoBack"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Help",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Help"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Reject",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Reject"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Repeat",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Repeat"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.SelectAny",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "SelectAny"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.SelectNone",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "SelectNone"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.ShowNext",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "ShowNext"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.StartOver",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "StartOver"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Stop",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Stop"
+      },
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "Email.Attachment",
+      "children": [],
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "Attachment"
+      },
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Email.EmailSubject",
+      "children": [],
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "EmailSubject"
+      },
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Email.Message",
+      "children": [],
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "Message"
+      },
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Utilities.DirectionalReference",
+      "children": [],
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "DirectionalReference"
+      },
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Web.SearchText",
+      "children": [],
+      "inherits": {
+        "domain_name": "Web",
+        "model_name": "SearchText"
+      },
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [
+    {
+      "name": "email",
+      "roles": []
+    },
+    {
+      "name": "number",
+      "roles": []
+    },
+    {
+      "name": "ordinal",
+      "roles": []
+    }
+  ],
+  "utterances": [
+    {
+      "text": "aiutami per favore",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "amore fa' silenzio",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "annulla",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "annulla annulla",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "annulla app",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "annulla e basta",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "annulla non importa",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "annullalo",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "annullalo e basta",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "annullato",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "apri la guida d'aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "assolutamente no",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "azzera e ricomincia",
+      "intent": "Utilities.StartOver",
+      "entities": []
+    },
+    {
+      "text": "basta parlare",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "basta per favore",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "calendario",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "calendario degli eventi",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "canale discord",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "c'è qualcuno con cui posso parlare",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "c'è un vero essere umano",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "c'è una vera persona",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "certamente",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "che argomenti sono trattati in laboratorio?",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "che cosa c'è dopo",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "che cosa hai detto",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "che mi dici di quello dopo",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "chi mi può aiutare",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "chiudi il becco",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "come contatto isisilab?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "come contatto un membro dell'isislab?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "come farlo",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come posso otternerlo",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come posso prenotare un seminario?",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "come posso tenere un mio seminario?",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "come si tengono in comunicazione i membri del laboratorio?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "conferma",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "contatta il servizio clienti",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "contatta il supporto",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "corretto",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "cosa",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "cosa c'è di più",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "cosa c'è dopo",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "cosa posso sapere sui seminari",
+      "intent": "Seminari",
+      "entities": []
+    },
+    {
+      "text": "cosa puoi fare riguardo i seminari",
+      "intent": "Seminari",
+      "entities": []
+    },
+    {
+      "text": "cosa si fa in isisilab?",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "cosa si fa in isislab",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "cosa sono i seminari",
+      "intent": "Seminari",
+      "entities": []
+    },
+    {
+      "text": "cosa viene dopo",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "cos'è che hai detto",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "da nessuna parte fai silenzio",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "dai smettila",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "dammi il sito del laboratorio",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "dammi informazioni sui seminari",
+      "intent": "Seminari",
+      "entities": []
+    },
+    {
+      "text": "dammi più informazioni su isislab",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "dammi più informazioni sul laboratorio",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "dammi una mano",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "devo prenotare un seminario",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "di nuovo",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "di più",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "di sicuro",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "dimenticatelo",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "dimmi di più",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "dimmi di più sui seminari",
+      "intent": "Seminari",
+      "entities": []
+    },
+    {
+      "text": "dio, sta' zitto",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "discord",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "dopodiché",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "dove posso contattare un membro del laboratorio?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "dove posso trovare isislab?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "dove seguo i seminari?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "dove si svolgono gli eventi del laboratorio?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "dove trovo i seminari?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "dove trovo il laboratorio virtuale?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "è corretto",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "ehi basta",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "esiste un canale ufficiale del laboratorio?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "eventi",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "eventi futuri",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "eventi in programma",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "fa' silenzio",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "fa' silenzio ora",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "fai pure",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "fantastico",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "fatto",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "finisci",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "finito",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "finito con",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "giusto",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "grazie mille",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di andare a quella successivo",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di assistenza",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di supporto",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di un servizio clienti manuale",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di un vero aiuto umano",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "ho detto basta",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "ho fatto",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "indietro",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "indietro per favore",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "invia",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "invialo",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "inviami il link al discord del laboratorio",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "mai",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "manda una mail",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "mi piacerebbe che smettessi di parlare",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "mio dio sta' zitto",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "molto bene",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "mostra di più",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "mostra i 4 elementi successivi",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "mostra i prossimi 3",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "mostra il successivo",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "mostra le due opzioni successive",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "mostrami di più",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "mostrami il successivo",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "neanche",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "neanche lontanamente",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "negativo",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "nessuno dei due",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "nessuno di loro grazie",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "nessuno grazie",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "nessuno nessuno",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "nessuno nessuno di loro",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "niente affatto",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "niente grazie",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "niente non importa",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "no annulla annulla",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "no basta",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "no fa' silenzio",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "no fa' silenzio ora",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "no lascialo",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no no",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no no annulla",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "no no annullalo",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "no no grazie",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no no no",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no no no no smettila di parlare",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "no no vai indietro",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "no non importa",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "no non lo voglio",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no non più",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no non quello",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no più tardi",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no rifiutalo",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no sbagliato",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "no sta' zitto",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "no vai indietro a",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "non",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "non esattamente",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "non fare niente",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "non fare nulla per favore",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "non farlo",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "non farlo più",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "non ho sentito",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "non ho sentito ripetilo di nuovo",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "non importa a nessuno smettila di parlare",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "non importa annulla",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "non importa annullalo",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "non importa stop",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "non in questo momento",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "non mi piace",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "non molto",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "non ora",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "non proprio",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "non quello",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "non sembrano buone, puoi darmi altre scelte",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "non voglio nessuno dei due",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "non voglio nessuno di loro",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "non voglio scegliere nessuno",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "non voglio selezionare nessuno",
+      "intent": "Utilities.SelectNone",
+      "entities": []
+    },
+    {
+      "text": "oh annulla",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "oh mio dio sta' zitto",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "oh no",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "oh non farlo",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "oh sì",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "ok basta basta",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "ok per ora",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "opta per uno a caso",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "opta per uno qualsiasi",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "ottimo",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "parla con un umano",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "parlami dei seminari",
+      "intent": "Seminari",
+      "entities": []
+    },
+    {
+      "text": "passa a quello successivo",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "per me va bene",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "perfetto",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "posso parlare con una persona",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "potresti dirlo di nuovo",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "potresti ricominciare da capo",
+      "intent": "Utilities.StartOver",
+      "entities": []
+    },
+    {
+      "text": "prenota",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "prenotami un seminario",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "prenotazione",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "prenotazione di un nuovo seminario",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "programma",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "programma degli eventi",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "prossimi eventi",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "prossimo evento",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "prossimo evento in laboratorio",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "prossimo seminario",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "puoi aiutarmi",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "puoi essere d'aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "qual è il sito del laboratorio?",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "qualche aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "quali sono i canali social del laboratorio?",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "quali sono i prossimi 2",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "quali temi trattate",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "qualsiasi",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "quando ci sarà il prossimo evento?",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "quando ci sarà il prossimo seminario?",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "quando posso vedere un seminario?",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "questo va bene",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "riavvia",
+      "intent": "Utilities.StartOver",
+      "entities": []
+    },
+    {
+      "text": "riavvialo",
+      "intent": "Utilities.StartOver",
+      "entities": []
+    },
+    {
+      "text": "ricomincia",
+      "intent": "Utilities.StartOver",
+      "entities": []
+    },
+    {
+      "text": "ricomincia da capo",
+      "intent": "Utilities.StartOver",
+      "entities": []
+    },
+    {
+      "text": "ricomincia per favore",
+      "intent": "Utilities.StartOver",
+      "entities": []
+    },
+    {
+      "text": "rifiuto",
+      "intent": "Utilities.Reject",
+      "entities": []
+    },
+    {
+      "text": "ripeti",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "ripeti per favore",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "ripetilo",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "ripetilo per favore",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "ritorna",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "rivela di più",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "scegli una a caso",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "scegli uno qualsiasi",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "scusa",
+      "intent": "Utilities.Repeat",
+      "entities": []
+    },
+    {
+      "text": "scusa, non farlo",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "seleziona una qualsiasi",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "seleziona una scelta a caso",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "seleziona una scelta qualsiasi",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "seleziona uno a caso",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "seleziona uno qualsiasi",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "seminari da vedere",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "seminari in programma",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "seminario",
+      "intent": "Seminari",
+      "entities": []
+    },
+    {
+      "text": "senza dubbio",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "servizio clienti",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "servizio umano",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "sì amore",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sì certo",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sì e basta",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "sì fai pure",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sì figo",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sì fratello",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sì grazie",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sì procedi",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sì va bene",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sicuramente",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sicuro",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "silenzio",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "silenzio ora",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "sono certo",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "sono un futuro studente della magistrale",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "sono un nuovo membro",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "sono un nuovo tesista",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "sono uno studente",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "sono uno studente della magistrale",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "sono uno studente della magistrale in cloud computing",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "sono uno studente della triennale",
+      "intent": "Informazioni",
+      "entities": []
+    },
+    {
+      "text": "spegni stop",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "taci",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "taci fa' silenzio",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "taci silenzio",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "torna a",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "torna all'ultimo passo",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "torna indietro a",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "tutto finito",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "tutto pronto",
+      "intent": "Utilities.FinishTask",
+      "entities": []
+    },
+    {
+      "text": "ultimo passo",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "uno qualsiasi",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "uno qualsiasi è ok",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "uscire stop",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "uscire uscire",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "va bene grazie",
+      "intent": "Utilities.Confirm",
+      "entities": []
+    },
+    {
+      "text": "va bene uno qualsiasi",
+      "intent": "Utilities.SelectAny",
+      "entities": []
+    },
+    {
+      "text": "vai ai tre oggetti successivi",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "vai al successivo",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "vai indietro",
+      "intent": "Utilities.GoBack",
+      "entities": []
+    },
+    {
+      "text": "vai via",
+      "intent": "Utilities.Cancel",
+      "entities": []
+    },
+    {
+      "text": "voglio assistere ad un seminario",
+      "intent": "Calendario",
+      "entities": []
+    },
+    {
+      "text": "voglio di più",
+      "intent": "Utilities.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "voglio dire smetti di ascoltare",
+      "intent": "Utilities.Stop",
+      "entities": []
+    },
+    {
+      "text": "voglio entrare a far parte del laboratorio",
+      "intent": "Social",
+      "entities": []
+    },
+    {
+      "text": "voglio informazioni sui seminari",
+      "intent": "Seminari",
+      "entities": []
+    },
+    {
+      "text": "voglio mandare una mail",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "voglio parlare con un umano",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "voglio parlare con un vero umano",
+      "intent": "Utilities.Escalate",
+      "entities": []
+    },
+    {
+      "text": "voglio prenotare un seminario",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "voglio tenere un seminario",
+      "intent": "Prenotazione",
+      "entities": []
+    },
+    {
+      "text": "volta pagina",
+      "intent": "Utilities.StartOver",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "ISISLabHelpDesk",
+  "desc": "",
+  "culture": "it-it",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
