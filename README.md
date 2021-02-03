@@ -193,7 +193,7 @@ $ az webapp deployment source config-zip --resource-group "<resource-group-name>
 
 #### Set the bot to use the Web App
 Go to the Bot Channels Registration resource using the Azure Portal.
-1. In the lateral menu choose 'Channels' and insert as 'Messaging endpoint' the URL of the Web App resource followed by 'api/messages/'. You should get something like `https://<nomeWebApp>.azurewebsites.net/api/messages`.
+1. In the lateral menu choose 'Settings' and insert as 'Messaging endpoint' the URL of the Web App resource followed by 'api/messages/'. You should get something like `https://<nomeWebApp>.azurewebsites.net/api/messages`.
 2. Click on 'Save'.
 Now the bot can be tested using the Web Chat available on Azure Portal goin in the in the lateral menu of the Bot Channels Registration resource and choosing 'Test in Web Chat', the bot will start and be ready to test.
 
